@@ -440,6 +440,10 @@ PRODUCT_PACKAGES += \
  PRODUCT_BOOT_JARS += \
     WfdCommon
 
+#XiaomiAddon
+PRODUCT_PACKAGES += \
+    XiaomiAddon
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit proprietary files
